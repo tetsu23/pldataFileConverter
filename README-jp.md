@@ -34,16 +34,10 @@ pythonのソースコードを直接起動するか、.exeファイルをダブ�
 - MIT license
 
 # Reference
--Pupillab
-[pupillab](https://docs.pupil-labs.com/developer/core/overview/)
--pySimpleGUI  
-[pySimpleGUI](https://www.pysimplegui.org/en/latest/)
--msgpack  
-[msgpack](https://msgpack.org/)
--For coding (in Japanese)  
-[sample1](https://qiita.com/issakuss/items/30759f9ed0e49c366009)
--For coding (in Japanese)  
-[sample2](https://qiita.com/makky0620/items/07dfe5414f5a38e322d1)
--For coding (in Japnese)  
-[sample3](https://qiita.com/issakuss/items/bfe2dc2dce6652ea710c)
+[pupillab](https://docs.pupil-labs.com/developer/core/overview/)  
+[pySimpleGUI](https://www.pysimplegui.org/en/latest/)  
+[msgpack](https://msgpack.org/)  
+[Reference for coding](https://qiita.com/issakuss/items/30759f9ed0e49c366009)  (In Japanese)  
+[Reference for coding](https://qiita.com/makky0620/items/07dfe5414f5a38e322d1)  (In Jananese)  
+[Reference for coding](https://qiita.com/issakuss/items/bfe2dc2dce6652ea710c)  (In Japanese)
 

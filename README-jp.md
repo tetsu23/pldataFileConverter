@@ -1,5 +1,5 @@
 # pldataConverter
-このプログラムはPupilLabのアイトラッキングシステムから出力された.pldataファイルの以下のデータを抽出、グラフ表示し、.csvファイルに出力するGUIソフトウェアのソースです。
+このプログラムはPupilLabのアイトラッキングシステムから出力された.pldataファイルの以下のデータを抽出、グラフ表示し、そして.csvファイルに出力するGUIソフトウェアのソースです。
 
 # Overview
 Pupillab社のアイトラッキングシステム（https://pupil-labs.com/）はpythonベースのSDKまたはpupilcapture.exeにより、瞳孔をトラッキングすることで視線や瞳孔など動きを単眼ごとに計測することができます。出力データには視線の軌跡情報やビデオ映像などが含まれます。付属のpupil_pupil.pldataには瞳孔径や動き情報が含まれ、pupil_service.exeによりエクセルファイルに書き出すことができますが、情報量が多いので以下の情報（'timestamp', 'id', 'method', 'confidence', 'norm_pos'）だけ抽出し、出力するソフトを作りました。取り出したい情報を変えるときはpupilLab_eye_fatigue_export_csv.pyのcolumnsの中身を書き変えてください。
@@ -18,7 +18,7 @@ pythonのソースコードを直接起動するか、.exeファイルをダブ�
 <img src="images/graph.png" alt="表示グラフの画像" title="Graph">
 
 (4) グラフ画像の出力：グラフ画像を出力するかをチェックし、参照ボタンを押し、エクスプローラーから出力ファイル名を指定
-(5) csvファイルの出力：csvファイルを出力するかチェックをし、参照ボタンを押し、えっくぽローラから出力ファイル名を指定
+(5) csvファイルの出力：csvファイルを出力するかチェックをし、参照ボタンを押し、エクスプローラから出力ファイル名を指定
 (6) 保存：保存ボタンを押すと保存されます。
 (7) Exit：ソフトウェアを終了します。
 
@@ -32,4 +32,18 @@ pythonのソースコードを直接起動するか、.exeファイルをダブ�
 
 # license
 - MIT license
+
+# Reference
+-Pupillab
+[pupillab](https://docs.pupil-labs.com/developer/core/overview/)
+-pySimpleGUI  
+[pySimpleGUI](https://www.pysimplegui.org/en/latest/)
+-msgpack  
+[msgpack](https://msgpack.org/)
+-For coding (in Japanese)  
+[sample1](https://qiita.com/issakuss/items/30759f9ed0e49c366009)
+-For coding (in Japanese)  
+[sample2](https://qiita.com/makky0620/items/07dfe5414f5a38e322d1)
+-For coding (in Japnese)  
+[sample3](https://qiita.com/issakuss/items/bfe2dc2dce6652ea710c)
 

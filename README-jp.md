@@ -24,11 +24,11 @@ pythonのソースコードを直接起動するか、.exeファイルをダブ�
 
 # Install
 -必要なライブラリ
- -msgpack %　version 0.5 以上
- -pandas
- -numpy
- -matplotlib
- -PySimpleGUI
+ -msgpack %　version 0.5 以上  
+ -pandas  
+ -numpy  
+ -matplotlib  
+ -PySimpleGUI  
 
 # license
 - MIT license

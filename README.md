@@ -13,13 +13,13 @@ This program is a GUI software source that extracts data from .pldata files outp
 Launch the python source code directly or by double-clicking on the .exe file.
 The .exe file is created using pyinstaller.
 
-<img src="images/gui_instruction.png" alt="GUIの画像" title="GUI">
+<img src="images/gui_instruction.png" alt="GUIの画像" title="GUI" width="50%">
 
 ## How to use the software
 (1) Input .pldata file: Press the Browse button and select a .pldata file from the exporer.
 (2) Select measurement monocular: Select the eye you want to output
 (3) Display graph: Display graph
-<img src="images/graph.png" alt="表示グラフの画像" title="Graph">
+<img src="images/graph.png" alt="表示グラフの画像" title="Graph" width="50%">
 (4) Output graph image: Check whether to output a graph image, press the Browse button, and specify the output file name from Explorer
 (5) Output csv file: Check whether to output a csv file, press the Browse button, and specify the output file name from Explorer.
 (6) Save: Press the Save button to save the file.

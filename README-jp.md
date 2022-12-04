@@ -10,12 +10,12 @@ Pupillab社のアイトラッキングシステム（https://pupil-labs.com/）�
 pythonのソースコードを直接起動するか、.exeファイルをダブルクリックして起動してください。
 .exeファイルはpyinstallerを使って作成しております。
 
-<img src="images/gui_instruction.png" alt="GUIの画像" title="GUI">
+<img src="images/gui_instruction.png" alt="GUIの画像" title="GUI" width="50%">
 ## ソフトウェアの使い方
 (1) .pldataファイルの入力：参照ボタンを押し、エクスポローラーから.pldataファイルを選択する。
 (2) 計測単眼選択：出力したい目を選択
 (3) グラフ表示：グラフを表示
-<img src="images/graph.png" alt="表示グラフの画像" title="Graph">
+<img src="images/graph.png" alt="表示グラフの画像" title="Graph" width="50%">
 
 (4) グラフ画像の出力：グラフ画像を出力するかをチェックし、参照ボタンを押し、エクスプローラーから出力ファイル名を指定
 (5) csvファイルの出力：csvファイルを出力するかチェックをし、参照ボタンを押し、エクスプローラから出力ファイル名を指定

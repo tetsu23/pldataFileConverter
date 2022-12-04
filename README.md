@@ -19,7 +19,9 @@ The .exe file is created using pyinstaller.
 (1) Input .pldata file: Press the Browse button and select a .pldata file from the exporer.
 (2) Select measurement monocular: Select the eye you want to output
 (3) Display graph: Display graph
+
 <img src="images/graph.png" alt="表示グラフの画像" title="Graph" width="50%">
+
 (4) Output graph image: Check whether to output a graph image, press the Browse button, and specify the output file name from Explorer
 (5) Output csv file: Check whether to output a csv file, press the Browse button, and specify the output file name from Explorer.
 (6) Save: Press the Save button to save the file.

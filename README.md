@@ -13,6 +13,15 @@ This program is a GUI software source that extracts data from .pldata files outp
 Launch the python source code directly or by double-clicking on the .exe file.
 The .exe file is created using pyinstaller.
 
+- Launch from command line
+$ python pldataFileConverter
+
+- Launch from .exe file (builded by pyInstaller)
+Double-click on pldataFileCoverter.exe in the dist folder to activate it.
+### How to make .exe file
+$ pyinstaller ./src/pldataFileConverter.py --onefile
+
+
 <img src="images/gui_instruction.png" alt="GUIの画像" title="GUI" width="50%">
 
 ## How to use the software
@@ -33,7 +42,8 @@ The .exe file is created using pyinstaller.
  -pandas  
  -numpy  
  -matplotlib  
- -PySimpleGUI  
+ -PySimpleGUI 
+ -PyInstaller 
 
 # lisence
 - MIT license

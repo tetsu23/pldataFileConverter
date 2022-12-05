@@ -10,6 +10,14 @@ Pupillab社のアイトラッキングシステム（https://pupil-labs.com/）�
 pythonのソースコードを直接起動するか、.exeファイルをダブルクリックして起動してください。
 .exeファイルはpyinstallerを使って作成しております。
 
+- コマンドラインから起動
+$ python pldataFileConverter
+
+- .exe　ファイルから起動（pyInstallerによるコンパイルが必要）
+distフォルダの下にあるpldataFileCoverter.exeを起動してください。
+### コンパイル方法
+$ pyinstaller ./src/pldataFileConverter.py --onefile
+
 <img src="images/gui_instruction.png" alt="GUIの画像" title="GUI" width="50%">
 
 ## ソフトウェアの使い方
@@ -24,6 +32,7 @@ pythonのソースコードを直接起動するか、.exeファイルをダブ�
 (6) 保存：保存ボタンを押すと保存されます。
 (7) Exit：ソフトウェアを終了します。
 
+
 # Install
 -必要なライブラリ
  -msgpack %　version 0.5 以上  
@@ -31,6 +40,7 @@ pythonのソースコードを直接起動するか、.exeファイルをダブ�
  -numpy  
  -matplotlib  
  -PySimpleGUI  
+ -PyInstaller
 
 # license
 - MIT license

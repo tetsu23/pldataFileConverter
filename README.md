@@ -2,7 +2,7 @@
 [Japanese version](./README-jp.md)
 
 # pldataConverter
-This program is a GUI software source that extracts data from .pldata files output by PupilLab's eye tracking system, displays them graphically, and outputs them to .csv files.
+This program is source code of a GUI software that extracts data from .pldata files output by PupilLab's eye tracking system, displays them graphically, and outputs them to .csv files.
 
 
 # Overview

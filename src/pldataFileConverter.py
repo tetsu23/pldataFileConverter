@@ -1,3 +1,6 @@
+#Copyright (c) 2022 tetsu23 (SenBayLab)
+#This software is released under the MIT License, see LICENSE.
+
 import msgpack
 import pandas as pd
 import numpy as np

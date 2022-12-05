@@ -14,7 +14,7 @@ pythonのソースコードを直接起動するか、.exeファイルをダブ�
 $ python pldataFileConverter
 
 - .exe　ファイルから起動（pyInstallerによるコンパイルが必要）
-distフォルダの下にあるpldataFileCoverter.exeを起動してください。
+distフォルダの下にあるpldataFileCoverter.exeを起動してください。  
 ### コンパイル方法
 $ pyinstaller ./src/pldataFileConverter.py --onefile
 
@@ -22,16 +22,16 @@ $ pyinstaller ./src/pldataFileConverter.py --onefile
 <img src="images/gui_instruction.png" alt="GUIの画像" title="GUI" width="50%">
 
 ## ソフトウェアの使い方
-(1) .pldataファイルの入力：参照ボタンを押し、エクスポローラーから.pldataファイルを選択する。　　
-(2) 計測単眼選択：出力したい目を選択　　
-(3) グラフ表示：グラフを表示　　
+(1) .pldataファイルの入力：参照ボタンを押し、エクスポローラーから.pldataファイルを選択する。  
+(2) 計測単眼選択：出力したい目を選択  
+(3) グラフ表示：グラフを表示  
 
 <img src="images/graph.png" alt="表示グラフの画像" title="Graph" width="50%">
 
-(4) グラフ画像の出力：グラフ画像を出力するかをチェックし、参照ボタンを押し、エクスプローラーから出力ファイル名を指定　　
-(5) csvファイルの出力：csvファイルを出力するかチェックをし、参照ボタンを押し、エクスプローラから出力ファイル名を指定　　
-(6) 保存：保存ボタンを押すと保存されます。　　
-(7) Exit：ソフトウェアを終了します。　　
+(4) グラフ画像の出力：グラフ画像を出力するかをチェックし、参照ボタンを押し、エクスプローラーから出力ファイル名を指定  
+(5) csvファイルの出力：csvファイルを出力するかチェックをし、参照ボタンを押し、エクスプローラから出力ファイル名を指定  
+(6) 保存：保存ボタンを押すと保存されます。  
+(7) Exit：ソフトウェアを終了します。  
 
 
 # Install

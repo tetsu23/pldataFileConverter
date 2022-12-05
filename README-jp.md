@@ -43,8 +43,8 @@ $ pyinstaller ./src/pldataFileConverter.py --onefile
  -PySimpleGUI  
  -PyInstaller　　
 
-# license
-- MIT license　　
+# License
+The source code is licensed MIT. The website content is licensed CC BY 4.0,see LICENSE.
 
 # Reference　　
 [pupillab](https://docs.pupil-labs.com/developer/core/overview/)  

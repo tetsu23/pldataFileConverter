@@ -17,33 +17,33 @@ The .exe file is created using pyinstaller.
 $ python pldataFileConverter
 
 - Launch from .exe file (builded by pyInstaller)
-Double-click on pldataFileCoverter.exe in the dist folder to activate it.
-### How to make .exe file
-$ pyinstaller ./src/pldataFileConverter.py --onefile
+Double-click on pldataFileCoverter.exe in the dist folder to activate it.  
 
+### How to make .exe file  
+$ pyinstaller ./src/pldataFileConverter.py --onefile  
 
 <img src="images/gui_instruction.png" alt="GUIの画像" title="GUI" width="50%">
 
 ## How to use the software
-(1) Input .pldata file: Press the Browse button and select a .pldata file from the exporer.
-(2) Select measurement monocular: Select the eye you want to output
-(3) Display graph: Display graph
+(1) Input .pldata file: Press the Browse button and select a .pldata file from the exporer.  
+(2) Select measurement monocular: Select the eye you want to output.  
+(3) Display graph: Display graph  
 
 <img src="images/graph.png" alt="表示グラフの画像" title="Graph" width="50%">
 
-(4) Output graph image: Check whether to output a graph image, press the Browse button, and specify the output file name from Explorer
-(5) Output csv file: Check whether to output a csv file, press the Browse button, and specify the output file name from Explorer.
-(6) Save: Press the Save button to save the file.
-(7) Exit: Exit the software.
+(4) Output graph image: Check whether to output a graph image, press the Browse button, and specify the output file name from Explorer.  
+(5) Output csv file: Check whether to output a csv file, press the Browse button, and specify the output file name from Explorer.  
+(6) Save: Press the Save button to save the file.  
+(7) Exit: Exit the software.  
 
 # Install
--Required Libraries
+-Required Libraries  
  -msgpack %　version 0.5 以上  
  -pandas  
  -numpy  
  -matplotlib  
- -PySimpleGUI 
- -PyInstaller 
+ -PySimpleGUI  
+ -PyInstaller  
 
 # lisence
 - MIT license
@@ -54,5 +54,5 @@ $ pyinstaller ./src/pldataFileConverter.py --onefile
 [msgpack](https://msgpack.org/)  
 [Reference for coding](https://qiita.com/issakuss/items/30759f9ed0e49c366009)  (In Japanese)  
 [Reference for coding](https://qiita.com/makky0620/items/07dfe5414f5a38e322d1)  (In Jananese)  
-[Reference for coding](https://qiita.com/issakuss/items/bfe2dc2dce6652ea710c)  (In Japanese)
+[Reference for coding](https://qiita.com/issakuss/items/bfe2dc2dce6652ea710c)  (In Japanese)  
 

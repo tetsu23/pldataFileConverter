@@ -18,38 +18,39 @@ distフォルダの下にあるpldataFileCoverter.exeを起動してください
 ### コンパイル方法
 $ pyinstaller ./src/pldataFileConverter.py --onefile
 
+
 <img src="images/gui_instruction.png" alt="GUIの画像" title="GUI" width="50%">
 
 ## ソフトウェアの使い方
-(1) .pldataファイルの入力：参照ボタンを押し、エクスポローラーから.pldataファイルを選択する。
-(2) 計測単眼選択：出力したい目を選択
-(3) グラフ表示：グラフを表示
+(1) .pldataファイルの入力：参照ボタンを押し、エクスポローラーから.pldataファイルを選択する。　　
+(2) 計測単眼選択：出力したい目を選択　　
+(3) グラフ表示：グラフを表示　　
 
 <img src="images/graph.png" alt="表示グラフの画像" title="Graph" width="50%">
 
-(4) グラフ画像の出力：グラフ画像を出力するかをチェックし、参照ボタンを押し、エクスプローラーから出力ファイル名を指定
-(5) csvファイルの出力：csvファイルを出力するかチェックをし、参照ボタンを押し、エクスプローラから出力ファイル名を指定
-(6) 保存：保存ボタンを押すと保存されます。
-(7) Exit：ソフトウェアを終了します。
+(4) グラフ画像の出力：グラフ画像を出力するかをチェックし、参照ボタンを押し、エクスプローラーから出力ファイル名を指定　　
+(5) csvファイルの出力：csvファイルを出力するかチェックをし、参照ボタンを押し、エクスプローラから出力ファイル名を指定　　
+(6) 保存：保存ボタンを押すと保存されます。　　
+(7) Exit：ソフトウェアを終了します。　　
 
 
 # Install
--必要なライブラリ
+-必要なライブラリ　　
  -msgpack %　version 0.5 以上  
  -pandas  
  -numpy  
  -matplotlib  
  -PySimpleGUI  
- -PyInstaller
+ -PyInstaller　　
 
 # license
-- MIT license
+- MIT license　　
 
-# Reference
+# Reference　　
 [pupillab](https://docs.pupil-labs.com/developer/core/overview/)  
 [pySimpleGUI](https://www.pysimplegui.org/en/latest/)  
 [msgpack](https://msgpack.org/)  
 [Reference for coding](https://qiita.com/issakuss/items/30759f9ed0e49c366009)  (In Japanese)  
-[Reference for coding](https://qiita.com/makky0620/items/07dfe5414f5a38e322d1)  (In Jananese)  
-[Reference for coding](https://qiita.com/issakuss/items/bfe2dc2dce6652ea710c)  (In Japanese)
+[Reference for coding](https://qiita.com/makky0620/items/07dfe5414f5a38e322d1)  (In Jananese) 　　 
+[Reference for coding](https://qiita.com/issakuss/items/bfe2dc2dce6652ea710c)  (In Japanese)　　
 

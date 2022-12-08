@@ -6,12 +6,12 @@ This program is source code of a GUI software that extracts data from .pldata fi
 
 
 # Overview
- Pupillab's Eye Tracking System (https://pupil-labs.com/), available via a python-based SDK or pupilcapture.exe, tracks pupils to measure eye gaze, pupils, and other movements on a monocular basis. Output data includes gaze trajectory information and video footage. The included pupil_pupil.pldata contains pupil diameter and movement information, which can be exported to an Excel file by pupil_service.exe, but due to the large amount of information, the following information ('timestamp', 'id', 'method', However, the amount of information is very large, so we have created a software that extracts and outputs only the following information ('timestamp', 'id', 'confidence', 'norm_pos'). If you want to change the information to be extracted, change the contents of columns in pupilLab_eye_fatigue_export_csv.py. 
+ Pupillab's Eye Tracking System (https://pupil-labs.com/), available via a python-based SDK or pupilcapture.exe, tracks pupils to measure eye gaze, pupils, and other movements on a monocular basis. Output data includes gaze trajectory information and video footage. The included pupil_pupil.pldata contains pupil diameter and movement information, which can be exported to an Excel file by pupil_service.exe. However, the amount of information is very large, so we have developed a software that extracts and outputs only the following information ('timestamp', 'id', 'confidence', 'norm_pos'). If you want to change the information to be extracted, change the contents of columns in pupilLab_eye_fatigue_export_csv.py. 
 
 # How to use
 ## How to start the software 
 Launch the python source code directly or by double-clicking on the .exe file.
-The .exe file is created using pyinstaller.
+And, the .exe file is created using pyinstaller.
 
 - Launch from command line
 $ python pldataFileConverter

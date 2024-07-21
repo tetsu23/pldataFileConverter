@@ -2,7 +2,7 @@
 このプログラムはPupilLabのアイトラッキングシステムから出力された.pldataファイルの以下のデータを抽出、グラフ表示し、そして.csvファイルに出力するGUIソフトウェアのソースです。
 
 # Overview
-Pupillab社のアイトラッキングシステム（https://pupil-labs.com/）はpythonベースのSDKまたはpupilcapture.exeにより、瞳孔をトラッキングすることで視線や瞳孔など動きを単眼ごとに計測することができます。出力データには視線の軌跡情報やビデオ映像などが含まれます。付属のpupil_pupil.pldataには瞳孔径や動き情報が含まれ、pupil_service.exeによりエクセルファイルに書き出すことができますが、情報量が多いので以下の情報（'timestamp', 'id', 'method', 'confidence', 'norm_pos'）だけ抽出し、出力するソフトを作りました。取り出したい情報を変えるときはpupilLab_eye_fatigue_export_csv.pyのcolumnsの中身を書き変えてください。
+[Pupillab社のアイトラッキングシステム](https://pupil-labs.com/)はpythonベースのSDKまたはpupilcapture.exeにより、瞳孔をトラッキングすることで視線や瞳孔など動きを単眼ごとに計測することができます。出力データには視線の軌跡情報やビデオ映像などが含まれます。付属のpupil_pupil.pldataには瞳孔径や動き情報が含まれ、pupil_service.exeによりエクセルファイルに書き出すことができますが、情報量が多いので以下の情報（'timestamp', 'id', 'method', 'confidence', 'norm_pos'）だけ抽出し、出力するソフトを作りました。取り出したい情報を変えるときはpupilLab_eye_fatigue_export_csv.pyのcolumnsの中身を書き変えてください。
 
 
 # How to use
